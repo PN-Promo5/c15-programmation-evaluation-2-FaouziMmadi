@@ -77,6 +77,7 @@ function arraydisplay(array) {
     tbody.appendChild(tr)
     i++
   }
+  return array
 }
 arraydisplay(array);
 
